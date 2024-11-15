@@ -115,9 +115,59 @@
 </section>
 <section class="footer">
     <div class="container">
-     <h2 >Bizning kurslarimiz kimga to’g’ri keladi ?</h2>
+     <h2 >PDP Junior  kurslari</h2>
     </div>
     </section>
+
+    <div class="container">
+
+
+    <div class="courses">
+    <div class="courses-wrapper">
+    <div class="courser-img">
+        <img src="./assets/image/robotatextnika.svg" alt="">
+    </div>
+    <div class="courses-info">
+        <div class="courses-top">  <h3>Robototexnika</h3> <span>Yangi</span></div>
+         <p>- Robot elektronikasini yig'ishni</p>
+         <p> - Robotlarga erkin dasturyozish C++ tilida </p>
+         <p> - Motorlar va Sensorlarni ishlata olish</p>
+         <p> - Korpuslarni 3D ko’rinishda yaratish</p>
+         <div class="course-info-btn">
+          <div><h4>Davomiligi</h4>
+            <h5>8 oy</h5></div>
+          <div><h4>Yosh chegarasi</h4>
+            <h5>10 - 17</h5></div>
+         </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="courses">
+    <div class="courses-wrapper">
+    <div class="courser-img">
+        <img src="./assets/image/pyton.png" alt="">
+    </div>
+    <div class="courses-info">
+        <div class="courses-top">  <h3>Robototexnika</h3> <span>Yangi</span></div>
+         <p>- Robot elektronikasini yig'ishni</p>
+         <p> - Robotlarga erkin dasturyozish C++ tilida </p>
+         <p> - Motorlar va Sensorlarni ishlata olish</p>
+         <p> - Korpuslarni 3D ko’rinishda yaratish</p>
+         <div class="course-info-btn">
+          <div><h4>Davomiligi</h4>
+            <h5>8 oy</h5></div>
+          <div><h4>Yosh chegarasi</h4>
+            <h5>10 - 17</h5></div>
+         </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    </div>
 
     <footer>
        <div class="wrapper">
@@ -369,6 +419,72 @@ footer{
       }
     }
   }
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    margin: 0;
+}
+
+
+.courses-wrapper{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    position: relative;
+    border: 1px solid #8a8787;
+    border-radius: 21px;
+    padding: 41px;
+    width: 993px;
+    background-color: #ffffff; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(219, 249, 216, 1); 
+        border-radius: 26px; 
+        z-index: -1; 
+        // transform: scale(1.05);
+}
+
+.courses-info{
+  .courses-top{
+     display: flex;
+     gap: 10px;
+     margin-bottom: 15px;
+     span{
+      background-color: rgba(0, 181, 52, 1);
+      color: #fff;
+      padding-inline: 13px;
+      border-radius: 40px;
+     }
+  }
+  p{
+    color: #0d1d25;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 4%;
+  }
+  .course-info-btn{
+    display: flex;
+    gap: 25px;
+    margin-top: 35px;
+    h4{
+      margin-bottom: 10px;
+    }
+    h5{
+      color: rgba(0, 181, 52, 1);
+      font-size: 20px;
+    }
+  }
+}
 }
 
 </style>
