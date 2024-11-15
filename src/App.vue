@@ -149,7 +149,7 @@
         <img src="./assets/image/pyton.png" alt="">
     </div>
     <div class="courses-info">
-        <div class="courses-top">  <h3>Robototexnika</h3> <span>Yangi</span></div>
+          <h3>Robototexnika</h3>
          <p>- Robot elektronikasini yig'ishni</p>
          <p> - Robotlarga erkin dasturyozish C++ tilida </p>
          <p> - Motorlar va Sensorlarni ishlata olish</p>
@@ -168,6 +168,26 @@
 
 
     </div>
+    <section class="footer">
+    <div class="container">
+     <h2 >Bog’lanish uchun</h2>
+    </div>
+    </section>
+
+    <section class="contact">
+    <dev class="container">
+    <div class="contact-header"><h3>Robototexnika kursiga qabul boshlangan !</h3></div>
+
+    <h4>Hoziroq ro'yxatdan o'ting</h4>
+    <p>va farzandingiz kelajagi uchun muhim qadamni tashlang</p>
+
+    <div class="inputs">
+    <input type="text" placeholder="Ismingiz">
+    <input type="text" placeholder="+998 -- --- -- --">
+    </div>
+    <div class="contact-btn"><button>Yuborish</button></div>
+    </dev>
+    </section>
 
     <footer>
        <div class="wrapper">
@@ -433,7 +453,7 @@ footer{
 .courses-wrapper{
     display: flex;
     align-items: center;
-    margin: 30px 0;
+    margin: 50px 0;
     position: relative;
     border: 1px solid #8a8787;
     border-radius: 21px;
@@ -485,6 +505,56 @@ footer{
     }
   }
 }
+}
+.contact{
+  .contact-header{
+margin-top: 50px;
+    text-align: center;
+        justify-content: center;
+        display: flex;
+        h3{
+        padding: 15px;
+        background-color: rgba(0, 181, 52, 1);
+        color: #fff;
+        border-radius: 16px;
+      }
+  }
+  h4{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 22px;
+  }
+  p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 21px;
+  }
+  .inputs{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+    input{
+      outline: none;
+      padding: 15px ;
+      border-radius: 13px;
+      border: none;
+      background-color: rgba(219, 249, 216, 1);
+      width: 390px;
+    }
+  }
+  .contact-btn{
+    text-align: center;
+    margin: 50px 0;
+    button{
+      padding: 18px 25px ;
+      border-radius: 14px;
+      border: none;
+      color: #fff;
+      background-color: rgba(0, 181, 52, 1);
+    }
+  }
 }
 
 </style>
