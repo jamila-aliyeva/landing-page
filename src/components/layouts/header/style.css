@@ -1,0 +1,36 @@
+header{
+    background: linear-gradient(to right, #0d1d25, #3aa76d);
+    padding: 16px 0;
+        }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .header-list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .header-list a{
+      color: rgb(116, 228, 129);
+      font-size: 1.125rem;
+      font-weight: 600;
+      transition: 0.5s;
+  }
+  .header-list a:hover{
+    color: #bfeed5; 
+  }
+  .header-right{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  .header-right p{
+
+      color: #fff;
+ 
+  }

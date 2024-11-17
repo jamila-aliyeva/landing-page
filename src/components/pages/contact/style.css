@@ -1,0 +1,52 @@
+
+    .contact-header{
+      margin-top: 50px;
+      text-align: center;
+          justify-content: center;
+          display: flex;
+         
+    }
+    .contact-header h3{
+        padding: 15px;
+        background-color: rgba(0, 181, 52, 1);
+        color: #fff;
+        border-radius: 16px;
+      }
+      .contact h4{
+      text-align: center;
+      margin-top: 35px;
+      font-size: 22px;
+    }
+    .contact p{
+      text-align: center;
+      color: rgba(0, 0, 0, 0.25);
+      font-size: 21px;
+    }
+    .inputs{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      margin-top: 25px;
+      gap: 20px;
+      
+    }
+    .inputs input{
+        outline: none;
+        padding: 15px ;
+        border-radius: 13px;
+        border: none;
+        background-color: rgba(219, 249, 216, 1);
+        width: 390px;
+      }
+    .contact-btn{
+      text-align: center;
+      margin: 50px 0;
+      
+    }
+  .contact-btn button{
+    padding: 18px 25px ;
+    border-radius: 14px;
+    border: none;
+    color: #fff;
+    background-color: rgba(0, 181, 52, 1);
+  }

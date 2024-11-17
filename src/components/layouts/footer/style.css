@@ -1,0 +1,22 @@
+footer{
+    background-color: rgba(1, 42, 48, 1);
+    }
+  .wrapper{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social{
+    display: flex;
+    gap: 15px;
+  }
+  .phone h4{
+    color: rgba(219, 249, 216, 1);
+  }
+  .info{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(219, 249, 216, 1);
+    padding: 10px;
+  }
